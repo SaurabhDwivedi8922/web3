@@ -1,0 +1,7 @@
+{
+    "typescript.enablePromptUseWorkspaceTsdk": false,
+    "editor.mouseWheelZoom": true,
+    "liveServer.settings.fullReload": true,
+    
+
+}

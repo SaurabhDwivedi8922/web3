@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body{
+          background-color: #b3e5fc ;
+        }
+        .container {
+            background-color: rgb(139, 190, 232);
+            border: 3px solid rgb(188, 174, 228);
+            border-radius: 23px;
+            width: 533px;
+            box-sizing: border-box;
+            /* We can set magrin/padding for top, bottom,right,left,like this */
+            /* padding-top: 25px;
+            padding-bottom: 45px;
+            padding-left: 40px;
+            padding-right: 50px; */
+/* margin:- top, bottom, left ,right are written like this */
+            margin-top: 36px;
+            margin-bottom: 36px;
+            margin-left: 44px;
+            margin-right: 36px;
+            /* padding :-top,bottom ,left,right like this */
+            /* padding: 54px 56px 85px 99px; */
+            /* padding: y(top/bottom) x(left/right) */
+            padding: 34px 19px ; 
+            /* margin: 14px 19px ;    */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3> This is my heading</h3>
+        <p id="first"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio pariatur exercitationem officia,
+            assumenda placeat ad, harum magni aut quasi dolorum sequi doloremque quas deleniti qui recusandae omnis.
+            Enim, sequi, minus atque voluptatibus fugit?.</p>
+    </div>
+    <div class="container">
+        <h3> This is my heading</h3>
+        <p id="second"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio pariatur exercitationem officia,
+            assumenda placeat ad, harum magni aut quasi dolorum sequi doloremque quas deleniti qui recusandae omnis.
+            Enim, sequi, minus atque voluptatibus fugit?.</p>
+    </div>
+    <div class="container">
+        <h3> This is my heading</h3>
+        <p id="third"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio pariatur exercitationem officia,
+            assumenda placeat ad, harum magni aut quasi dolorum sequi doloremque quas deleniti qui recusandae omnis.
+            Enim, sequi, minus atque voluptatibus fugit?.</p>
+    </div>
+</body>
+
+</html>
